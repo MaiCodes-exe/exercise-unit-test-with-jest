@@ -36,7 +36,7 @@ test("One dollar should be x yens", function(){
 
     const { fromDollarToYen } = require('./app.js')
 
-    const yen = fromDollarToYen(3.5 / 1.2) * 127.9; 
+    const yen =(3.5 / 1.2) * 127.9; 
     
     expect(fromDollarToYen(3.5)).toBe(yen); 
 })
