@@ -23,14 +23,15 @@ const fromEuroToDollar = function(valueInEuro){
 
 // //Exercise 13
 const fromDollarToYen = function(dollarAmmount){
-    let ValueinYen = (dollarAmmount / oneEuroIs.USD) * oneEuroIs.JPY;
-    return ValueinYen;
+    console.log(dollarAmmount)
+    let valueInYen = (dollarAmmount / oneEuroIs.USD) * oneEuroIs.JPY;
+    return valueInYen;
 }
 
 // //Exercise 13. 2
 const fromYenToPound = function(yenAmmount) {
-    let ValueinPound= (yenAmmount / oneEuroIs.JPY) * oneEuroIs.GBP;
-    return ValueinPound;
+    let valueInPound= (yenAmmount / oneEuroIs.JPY) * oneEuroIs.GBP;
+    return valueInPound;
 }
 
 // export the function to be used on other files 
